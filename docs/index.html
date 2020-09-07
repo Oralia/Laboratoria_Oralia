@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>La mujer en Latinoamerica</title>
+  <link href="https://fonts.googleapis.com/css?family=Oranienbaum|Roboto&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css" />
+</style>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+  <div id="screen">
+    <div class="header">
+      <p>LA VIDA DE LAS MUJERES EN LATINOAMERICA</p>
+    </div>
+
+
+    <div class="row">
+      <div class="col-2 menu">
+        <ul>
+          <li id="textBrasil" class="countries">Brasil</li>
+          <button id="buttonBrasil" class="button"></button>
+          <li id="textChile" class="countries">Chile</li>
+          <button id="buttonChile" class="button"></button>
+          <li id="textMexico" class="countries">México</li>
+          <button id="buttonMexico" class="button"></button>
+          <li id="textPeru" class="countries">Perú</li>
+          <button id="buttonPeru" class="button"></button>
+        </ul>
+      </div>
+    </div>
+
+    <div class="col-10">
+      <br>
+      <div class="summary">
+        <p >En los países latinoamericanos se ha modificado y creado leyes que apoyan a las mujeres en la vida política, violencia de género, sexualidad e igualdad y pese a que existen grandes avances aún hay retos que obstruyen garantizar los derechos de las mujeres.
+          Te invitamos a conocer los Indicadores del Banco de Desarrollo Mundial en los que puedes encontrar información relacionada con el desarrollo de la mujer con cifras actuales e históricas.</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="screenBrasil">
+      <h2 class="countriesScreen">Brasil</h2>
+    </div>
+
+    <div id="screenChile">
+      <h2 class="countriesScreen">Chile</h2>
+    </div>
+
+
+    <div id="screenMexico">
+      <h2 class="countriesScreen">México</h2>
+    </div>
+
+    <div id="screenPeru">
+      <h2 class="countriesScreen">Perú</h2>
+    </div>
+
+    <!--Pantalla que muestra los indicadores -->
+    <div id="screenIndicators">
+      <p class="selectIndicator"> Selecciona el indicador que deseas conocer</p>
+
+      <br>
+
+      <div class="dropdown">
+        <button id="EducacionButton" class="buttonIndicator"> Educación</button>
+        <div class="dropdown-content">
+          <a href="#" id="Educación" > </a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <button id="EmpleoButton" class="buttonIndicator"> Empleo  </button>
+        <div class="dropdown-content">
+          <p id="Empleo" > </p>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <button id="NegociosButton" class="buttonIndicator"> Negocios  </button>
+        <div class="dropdown-content">
+          <p id="Negocios"></p>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <button id="PoblaciónButton" class="buttonIndicator"> Población</button>
+        <div class="dropdown-content">
+          <a id="Población" > </a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <button id="SaludButton" class="buttonIndicator"> Salud</button>
+        <div class="dropdown-content">
+          <a id="Salud"> </a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <button id="ViolenciaButton" class="buttonIndicator"> Violencia </button>
+        <div class="dropdown-content">
+          <a id="Violencia"> </a>
+        </div>
+      </div>
+      <br> <button id="menu" class="menu"><i class="material-icons">home</i></button>
+
+    </div>
+
+    <script type="module" src="main.js"></script>
+
+  </body>
+  </html>

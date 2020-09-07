@@ -1,0 +1,180 @@
+* {
+  box-sizing: border-box;
+}
+
+/*Bloqueo inicial de las pantalla*/
+#screenBrasil, #screenChile,#screenMexico,#screenPeru,#screenIndicators{display: none;}
+
+.header{
+  font-size: 40px;
+  text-align: center;
+  padding: 20px;
+  background-color: #C94AFF;
+  color:#ffffff;
+}
+.title{
+  font-family: Oranienbaum;
+}
+
+
+
+[class*="col-"]{
+  float:left;
+  padding:15px;
+}
+
+/*Declarando las columnas para el diseno responsive*/
+
+/*Celular*/
+[class*="col-"]{
+  width: 100%;
+}
+
+
+@media only screen and (min-width: 768px) {
+
+/*computadora*/
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+}
+
+
+
+body{
+  background-color: #ffffff;
+  padding: 30px;
+}
+/*menu es la columna 2*/
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+/*Botones del menu de paises*/
+.button{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent;
+  border-color: #684F80;
+  border-radius: 8px;
+  width: 90px;
+  height: 55px;
+  padding: 5px;
+  border: outset;
+}
+
+
+/*Nombre de cada pais*/
+.countries,#indicatorsType{
+  color:black;
+  font-size: 25px;
+  text-align: left;
+  background-color:transparent;
+  background-size: contain;
+  padding: 5px;
+  font-family: 'Roboto', sans-serif;
+
+  }
+
+
+#buttonBrasil{
+    background-image:url("brasilbandera.jpg");
+  }
+#buttonChile{
+background-image:url("chilebandera.jpg");
+}
+#buttonPeru{
+background-image:url("perubandera.jpg");
+}
+#buttonMexico{
+background-image:url("mexicobandera.jpg");
+}
+
+
+.countriesScreen {
+
+  text-align: center;
+  font-size: 35px;
+  background-color: #C94AFF;
+  color:#ffffff;
+  font-family: 'Roboto', sans-serif;
+}
+/*main*/
+.col-10{
+  border-style: outset;
+  background-image:url("mujeres.jpg");
+  background-size: auto;
+  /*background-repeat: no-repeat;*/
+  max-width: 80%;
+  height: 500px;
+/*  padding: 100px;*/
+
+}
+.summary {
+  margin-top: 500px;
+  color: black;
+  /*padding: 5px;*/
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.selectIndicator{
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+
+
+.buttonIndicator {
+  background-color: #E338E8;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: outset;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+}
+
+.dropdown {
+  position: relative;
+  display: inline;
+}
+
+.dropdown-content {
+  display: none;
+  background-color: #ffffff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  overflow: auto;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-family: 'Roboto', sans-serif;
+}
+
+/*.dropdown-content a:hover {background-color: #E096FF}*/
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}

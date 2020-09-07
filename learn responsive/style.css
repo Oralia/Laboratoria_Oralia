@@ -1,0 +1,113 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing:border-box;
+}
+
+.menu-container{
+  color: #ffffff;
+  background-color: #4275FF;
+  padding: 20px 0;
+
+}
+
+.menu{
+  border: 1px solid #fff;
+  width: 900px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu-container{
+  display: flex;
+  justify-content:center;
+}
+
+.links{
+  border-radius: 1px solid #fff;
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+body{
+  height: 1200px;
+}
+
+.imagen-grid-container{
+/*  width: 500px;*/
+  display: flex;
+/*  justify-content: flex-start;*/ /*pone las imagenes en linea*/
+  justify-content: center; /*acomoda las imagenes en el centro y el pila*/
+  /*flex-wrap: wrap;*/
+}
+
+.imagen-relative{
+  display: flex;
+  justify-content: space-around;
+
+  width: 800px;
+  margin: 50px 0;
+}
+
+.imagen-item{
+/*  border: 1px solid #fff;
+  width: 300px;
+  height: 300px;*/
+  display: block;
+}
+
+.imagen-item-relative{
+position: relative;
+top: 30px;
+left: 30px;
+}
+
+
+.imagen-item-absolut{
+  position: absolute;
+  top: 30px;
+  left: 30px;
+
+}
+
+
+.imagen-item-fixed{
+  position: fixed;
+  top: 30px;
+  left: 30px;
+
+}
+/*
+.menu {
+  height: 100px;
+  background-color: #FFED75;
+}
+
+.sidebar {
+  float: left;
+  width: 200px;
+  height: 200px;
+  background-color: #FF5CBA;
+}
+
+.content {
+  float: left;
+  width: 650px;
+  height: 500px;
+  background-color: #42EFFF;
+}
+
+.page {
+
+  width: 900px;
+  margin: 0 auto;
+  border: 1px solid red;
+  overflow: hidden;
+}
+.footer {
+  clear: both;
+  height: 200px;
+  background-color: #1EA7B3;
+}
+*?
